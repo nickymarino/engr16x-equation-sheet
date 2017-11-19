@@ -140,24 +140,24 @@ Kinetic: $E_k = \frac{1}{2}mv^2$ \\
 %	Impulse-Momentum Equation
 %------------------------------------------------
 
-\section*{Impulse-Momentum Equation}
+\section*{Linear Impulse-Momentum Equations}
 Single Particle:
 \begin{align*}
-    \Delta\vec{p} &= \int_{t_{initial}}^{t_{final}} \vec{F}_{net} dt  \\
+    \Delta\vec{p} &= \int_{t_{state 1}}^{t_{state 2}} \vec{F}_{net} dt  \\
                   &= m\vec{v}_2 - m\vec{v}_1
 \end{align*}
 
 System of Particles: 
 \begin{align*}
-    \Delta\vec{p}_{total} &= \int_{t_{initial}}^{t_{final}} \vec{F}_{net}^{ext} \\
-                          &= \sum_i \left( m_i\vec{v}_{i, final} - m_i\vec{v}_{i, initial} \right)
+    \Delta\vec{p}_{total} &= \int_{t_{state 1}}^{t_{state 2}} \vec{F}_{net}^{ext} \\
+                          &= \sum_i \left( m_i\vec{v}_{i, state 2} - m_i\vec{v}_{i, state 1} \right)
 \end{align*}
 
 Conservation of Momentum:
 \begin{align*}
-    0 &= \sum_i \left( m_i\vec{v}_{i, final} - m_i\vec{v}_{i, initial} \right) \\
-      &= \sum_i m_i\vec{v}_{i, final} - \sum_i m_i\vec{v}_{i, initial} \\
-    \sum_i m_i\vec{v}_{i, initial} &= \sum_i m_i\vec{v}_{i, final}
+    0 &= \sum_i \left( m_i\vec{v}_{i, state 2} - m_i\vec{v}_{i, state 1} \right) \\
+      &= \sum_i m_i\vec{v}_{i, state 2} - \sum_i m_i\vec{v}_{i, state 1} \\
+    \sum_i m_i\vec{v}_{i, state 1} &= \sum_i m_i\vec{v}_{i, state 2}
 \end{align*}
 
 \clearpage
@@ -174,7 +174,7 @@ Motion in a normal direction looks exactly the same as a direct impact. Thus, th
     m_A \left(v_{A, n} \right)_1 + m_B \left( v_{B, n} \right)_1 = m_A \left(v_{A, n} \right)_2 + m_B \left( v_{B, n} \right)_2
 \end{equation*}
 \begin{equation*}
-    e = -\frac{m_A \left(v_{A, n} \right)_2 + m_B \left( v_{B, n} \right)_2}{m_A \left(v_{A, n} \right)_1 + m_B \left( v_{B, n} \right)_1}
+    e = -\frac{\left(v_{A, n} \right)_2 - \left( v_{B, n} \right)_2}{\left(v_{A, n} \right)_1 - \left( v_{B, n} \right)_1}
 \end{equation*} \\
 
 \textbf{Motion in a Tangent Direction} \\
