@@ -1,0 +1,14 @@
+\begin {longtable}{@{}ll>{\hsize =\vhAuthorColWidth }X>{\hsize =\vhChangeColWidth }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+1.0
+ & 11/26/17
+ & \listset {NSM}
+ & Creation\\
+1.1
+ & 12/2/17
+ & \listset {NSM}
+ & Fixed typo in \textit {Motion in a Tangent Direction}\\
+\end {longtable}
